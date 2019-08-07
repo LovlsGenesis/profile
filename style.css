@@ -1,0 +1,121 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #C4DEFF;
+  font-family: 'Open Sans', sans-serif;
+  color: ;
+  font-size: 18px;
+  line-height:;
+  font-weight: lighter;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  color: darkblue;
+  font-size: 50px;
+  margin: auto auto;
+}
+
+p {
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 17px;
+}
+
+h2, h3 {
+  color: #466cca;
+}
+
+#pp {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  padding: 5px;
+}
+
+#blue-rounded-btn {
+  color: white;
+  font-weight: bolder;
+  margin: 0 auto;
+  padding: 7px;
+  background-color:#7B9FCF;
+  border-radius: 7%
+}
+
+#blue-rounded-btn:hover {
+  background-color: #6B89B3;
+}
+
+.list-inline {
+  list-style:none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  color: #FFFFFF;
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  color: #8EB1D9;
+  font-size: 50px
+}
+.list-inline i:hover {
+  color: black;
+}
+
+.card {
+  margin: 5px -250px 20px;
+  background-color: #eaf3ff;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5)
+}
+
+.inline {
+  display: inline;
+}
+
+.round-border {
+  border-radius: 10%;
+  max-width: 280px;
+  margin: auto auto 25px;
+}
+
+.round-border-others {
+  border-radius: 20%;
+  max-width: 1500px;
+  margin: auto auto 25px;
+}
