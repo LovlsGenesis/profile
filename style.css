@@ -18,7 +18,8 @@
 }
 
 body {
-  background-color: #C4DEFF;
+  background-image: url(/images/65thfiw.png);
+  /*background-color: #C4DEFF;*/
   font-family: 'Open Sans', sans-serif;
   color: ;
   font-size: 18px;
@@ -27,7 +28,7 @@ body {
 }
 
 .container {
-  width: 500px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -74,7 +75,7 @@ h2, h3 {
 }
 
 #blue-rounded-btn:hover {
-  background-color: #6B89B3;
+  background-color: #83878a;
 }
 
 .list-inline {
@@ -97,15 +98,12 @@ h2, h3 {
 }
 
 .card {
-  margin: 5px -250px 20px;
+  margin: 5px 20px 20px;
+  width: 950px;
   background-color: #eaf3ff;
   text-align: center;
   padding: 20px 0px 20px 0px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.5)
-}
-
-.inline {
-  display: inline;
 }
 
 .round-border {
@@ -114,8 +112,38 @@ h2, h3 {
   margin: auto auto 25px;
 }
 
-.round-border-others {
-  border-radius: 20%;
-  max-width: 1500px;
-  margin: auto auto 25px;
+.borders {
+  border-radius: 5%;
+}
+
+.position {
+position: absolute;
+left: 15px;
+padding: 0px 13px 7px 13px;
+}
+
+.flags {
+width: 35px;
+padding: 9px;
+}
+
+.width {
+  width: 175px;
+}
+
+#margin {
+  margin: 4px 0px;
+}
+
+#bottom-pos {
+position: absolute;
+right: 5px;
+padding: 0px 0px 0px 0px;
+}
+
+#title {
+margin: 5px;
+}
+
+#description {
 }
