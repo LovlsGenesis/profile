@@ -1,0 +1,12 @@
+#blue-rounded-btn {
+  color: white;
+  font-weight: bolder;
+  margin: 0 auto;
+  padding: 7px;
+  background-color:#7B9FCF;
+  border-radius: 7%
+}
+
+#blue-rounded-btn:hover {
+  background-color: black;
+}

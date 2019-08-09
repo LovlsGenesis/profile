@@ -1,0 +1,22 @@
+.borders {
+  border-radius: 5%;
+}
+
+.position {
+position: absolute;
+left: 15px;
+padding: 0px 13px 7px 13px;
+}
+
+.flags {
+width: 35px;
+padding: 9px;
+}
+
+.width {
+  width: 175px;
+}
+
+#margin {
+  margin: 4px 0px;
+}

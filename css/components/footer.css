@@ -1,0 +1,30 @@
+.footer {
+  background-color:#eaf3ff;
+  color: grey;
+  font-size: 10px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 75px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.list-inline {
+  list-style:none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  color: #FFFFFF;
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  color: #8EB1D9;
+  font-size: 50px
+}
+.list-inline i:hover {
+  color: black;
+}
