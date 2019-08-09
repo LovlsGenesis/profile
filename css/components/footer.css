@@ -1,13 +1,17 @@
 .footer {
   background-color:#eaf3ff;
   color: grey;
-  font-size: 10px;
+  font-size: 15px;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 75px;
+  padding-bottom: 35px;
   width: 100vw;
   position: absolute;
   bottom: 0;
+}
+
+.footer h3 {
+  font-size:
 }
 
 .list-inline {
