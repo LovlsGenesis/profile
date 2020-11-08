@@ -22,15 +22,20 @@
   .container {
     width: 300px;
   }
+
+  #name {
+    font-size: 20px
+  }
 }
 
 body {
   background-image: url(../images/65thfiw.png);
   background-size: cover;
-  /*background-color: #C4DEFF;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  line-height:;
+  /* line-height:; */
   font-weight: lighter;
   margin: 0;
   position: relative;
@@ -38,7 +43,6 @@ body {
 }
 
 .container {
-  width: 1000px;
   margin: 0 auto;
 }
 
@@ -47,7 +51,6 @@ h1{
   font-weight: lighter;
   color: darkblue;
   font-size: 50px;
-  margin: auto auto;
 }
 
 h2, h3 {
@@ -66,12 +69,15 @@ a {
 }
 
 #pp {
-  height: 150px;
-  width: 150px;
-  border-radius: 75px;
+  width: 80%;
+  border-radius: 50%;
   padding: 5px;
+  margin: 0 auto;
 }
 
-/*#description {
-}*/
-
+.presentation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 20px;
+}

@@ -1,16 +1,10 @@
 .borders {
-  border-radius: 5%;
-}
-
-.position {
-position: absolute;
-left: 15px;
-padding: 0px 13px 7px 13px;
+  border-radius: 10px;
 }
 
 .flags {
-width: 35px;
-padding: 9px;
+width: 50%;
+padding: 10px;
 }
 
 .width {

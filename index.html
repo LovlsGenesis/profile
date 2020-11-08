@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Saira+Stencil+One|Roboto:300,400,500,700,900&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Guillaume's Profile</title>
@@ -11,32 +12,42 @@
 
   <body>
     <div class="container">
-      <div class="card position borders width">
-        <h3 id="margin">Language Spoken</h3>
-        <table>
-          <tbody>
-            <tr>
-              <td><a href="fr"><img src="images/france.svg" alt="France" class="flags"></a></td>
-              <td><a href="br"><img src="images/brazil.svg" alt="Brazil" class="flags"></a></td>
-              <td><a href="en"><img src="images/united-states.svg" alt="USA" class="flags"></a></td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="row">
+        <div class="presentation">
+          <div class="col-sm-3">
+            <div class="card borders">
+              <h3 id="margin">Language Spoken</h3>
+                <div class=" d-flex justify-content-around" style="width: 100px; margin:0 auto">
+                  <td><img src="images/france.svg" alt="France" class="flags"></td>
+                  <td><img src="images/brazil.svg" alt="Brazil" class="flags"></td>
+                  <td><img src="images/united-states.svg" alt="USA" class="flags"></td>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card round-border">
+              <img src="images/51140364.jpeg" alt="Guillaume Zeldine" id="pp">
+              <h1 id="name">Guillaume Zeldine</h1>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card borders about-me">
+              <h3 id="title">About me</h3>
+                <p id="description"> French & Brazilian <br> Age : 23 <br> Born : São Paulo</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="card borders about-me width" id="bottom-pos">
-        <h3 id="title">About me</h3>
-          <p id="description"> French & Brazilian <br> Age : 23 <br> Born : São Paulo</p>
-      </div>
-
-      <div class="card round-border">
-        <img src="images/51140364.jpeg" width="100px" alt="Guillaume Zeldine" id="pp">
-        <h1>Guillaume Zeldine</h1>
-      </div>
       <div class="card borders">
-        <p>Learning how to program with Le Wagon. <br> Fan of sports, animals and video-games. <br> Like to travel and learn new things.</p>
+        <p> RoR FullStack Dev. <br> Fan of sports, animals and video-games. <br> Like to travel and learn new things.</p>
+        <p>Actually working at <a href="https://www.mobile2you.com.br/pt/" target="_blank">Mobile2You</a> as a Back-End Dev.</p>
+      </div>
+      
+      <div class="contact card borders">
         <a href="" target="_blank" id="blue-rounded-btn">Contact Me</a>
       </div>
+      
 
     </div>
     <div class="footer">
